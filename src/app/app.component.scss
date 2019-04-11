@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo');
+
+#introDiv
+{
+    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),
+                      url('../assets/cover_img.jpg');
+    background-size: cover;
+    min-height: 700px;
+}
+
+.card-body
+{
+    display: inline-flex;
+    .movie-img
+    {
+        width: 185px;
+        height: 278px;
+    }
+    .card-content
+    {
+        padding-left: 10px;
+    }
+    
+}
+.brand-header
+{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 5em;
+    padding-top: 20%;   
+    font-family: 'East Sea Dokdo', cursive;
+    .brand-pink
+    {
+        color: #e75151;
+        padding: 0;
+        width: 100%;
+        font-weight: bold;
+    }
+}
