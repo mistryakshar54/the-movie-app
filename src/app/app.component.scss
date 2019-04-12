@@ -2,7 +2,7 @@
 
 #introDiv
 {
-    background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.82)), 
                       url('../assets/cover_img.jpg');
     background-size: cover;
     min-height: 700px;
@@ -22,20 +22,40 @@
     }
     
 }
+.popular-section
+{
+    position: relative;
+    margin-top: -90px;
+    background-color: white;
+}
+.section-header
+{
+    width: 100%;
+    text-align: center;
+    font-size: 2.3em;
+    font-weight: 700;
+    padding: 10px 0px 10px 0px;
+}
+.movie-card
+{
+    padding: 0;
+    margin-top: 10px;
+    .card-body
+    {
+        width: 200px;
+        padding: 5px 0px 5px 0px;
+    }
+}
 .brand-header
 {
-    font-size: 2em;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1.1em;
+    margin: 0 0 30px;
+    position: relative;
+    padding-top: 20%;   
     color: white;
     text-align: center;
     width: 100%;
-    font-size: 5em;
-    padding-top: 20%;   
-    font-family: 'East Sea Dokdo', cursive;
-    .brand-pink
-    {
-        color: #e75151;
-        padding: 0;
-        width: 100%;
-        font-weight: bold;
-    }
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
